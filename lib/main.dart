@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram/pages/home/homeScreen.dart';
 
@@ -23,9 +25,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
         primaryColor: Colors.black,
+        fontFamily: 'Vazir',
+
       ),
-      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
+     // home: new Directionality(textDirection: TextDirection.rtl, child: HomeScreen()),
+      home: HomeScreen(),
+
     );
   }
 }

@@ -12,13 +12,13 @@ class SearchPageState extends State<SearchPage>{
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Container(
-      color: Colors.green,
+      color: Colors.blue,
       child: new Center(
         child:
         new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            new Text("add page",style: TextStyle(color: Colors.white),)
+            new Text("Search page",style: TextStyle(color: Colors.white),)
           ],
         )
         ,
